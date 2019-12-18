@@ -1,0 +1,315 @@
+#Header {
+	width: 960px;
+  height:150px;
+	float: left;
+}
+#Header img{
+  float:left;
+	border: solid #7f8100;
+	border-radius: 10%;
+}
+#Header h1{
+  float: right;
+  width:790px;
+  height:20px;
+  color: #7f8100;
+  font-family: "Vladimir Script";
+  font-size: 50px;
+}
+#Header h2{
+  float: right;
+  width:790px;
+  height:20px;
+  color: #000000;
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+.button {
+	width: 120px;
+	float: center;
+	background-color: #3b2f2f;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-top: 15px;
+	}
+
+#Nav {
+	width: 120px;
+	float: center;
+	background-color: #3b2f2f;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-top: 15px;
+	}
+
+	#Nav a {
+		width: 120px;
+		float: center;
+		background-color: #3b2f2f;
+		color: white;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		margin-top: 15px;
+		text-decoration: none;
+		}
+
+
+#Nav a:hover {
+	color: White;
+	background-color: #77512b;
+}
+
+#this {
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: rgba(0,0,0,0.2);
+z-index: 99999;
+opacity:0;
+pointer-events: none;
+text-align:center;
+}
+#this:target {
+opacity:1;
+pointer-events: auto;
+}
+
+
+
+#slideshow1{
+  overflow:hidden;
+  height:50px;
+  width: 100%;
+  border: none;
+  }
+
+.slide-wrapper{
+  width: 333%;
+  height: 100%;
+  animation: slideshow 12s infinite;
+	animation-direction: alternate;
+ }
+
+ .slide{
+   float: left;
+   height: 100%;
+   width: 33%;
+   text-align: center;
+   padding-top: 15px;
+   }
+
+	.slide q3{
+		color: #ffffff;
+	}
+ /** THE CORRECT WAY makes it like a powerpoint slide,
+ My way fades it between colors, But both WORK**/
+ .slide:nth-child(1){
+   background-color: #dcc865;
+    }
+    .slide:nth-child(2){
+      background-color: #7f8100;
+       }
+       .slide:nth-child(3){
+         background-color: #2c1d08;
+          }
+
+ /**
+ @keyframes slideshow {
+  0%{margin-left: 0px;background: red;}
+  25%{margin-left: -100%;background: orange;}
+  50%{margin-left: -200%;background: yellow;}
+  75%{margin-left: -300%;background: green;}
+  100%{margin-left: -400%;background: blue;}
+ }**/
+@keyframes slideshow {
+  0%{margin-left: 0px;}
+	20%{margin-left: 0px;}
+  40%{margin-left: -111%;}
+	60%{margin-left: -111%;}
+	80%{margin-left: -222%;}
+  100%{margin-left: -222%;}
+}
+@@keyframes animation {
+	direction: alternate;
+
+}
+
+
+#Section {
+	position: relative;
+	width: 100%;
+	float: left;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	padding-right: 0px;
+	padding-left: 0px;
+	background-color: #fffee1;
+	color: #000000;
+	text-align: center;
+	font-size: 18px;
+	border-right-color: #003399;
+	height: 680px;
+
+	}
+
+#Section q1{
+	font-family: "Times New Roman";
+font-size: 12px;
+text-align: left;
+padding: 20px;
+position: absolute;
+top: 50%;
+left: 21%;
+transform: translate(-62%, -90%);
+width: 30%;
+margin-bottom: 90px;
+margin-left: 40px;
+color: black;
+background-color: lightgray;
+border-top-width: 3px;
+border-right-width: 3px;
+border-bottom-width: 3px;
+border-left-width: 3px;
+border-top-style: solid;
+border-right-style: solid;
+border-bottom-style: solid;
+border-left-style: solid;
+border-color: white;
+}
+#Section q2{
+	font-family: "Times New Roman";
+font-size: 14px;
+text-align: left;
+padding: 20px;
+position: absolute;
+top: 50%;
+left: 21%;
+transform: translate(-30px, 310%);
+width: 50%;
+margin-bottom: 9px;
+margin-left: 40px;
+color: white;
+background-color: none;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+#Section q9{
+font-family: "Times New Roman";
+font-size: 12px;
+text-align: left;
+padding: 20px;
+position:absolute;
+bottom: 10%;
+left: 21%;
+transform: translate(-25%, 20%);
+width: 80%;
+margin-left: 40px;
+color: black;
+background-color: none;
+border-top-width: 3px;
+border-right-width: 3px;
+border-bottom-width: 3px;
+border-left-width: 3px;
+}
+
+
+#Section a {
+	text-decoration: none;
+	color: #000;
+	padding: 10px;
+}
+
+#Section h2{
+	text-align: center;
+  width:100%;
+  height:20px;
+  color: #7f8100;
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+
+
+#Section hr{
+	border-color: #7f8100;
+	width: 960px;
+
+
+}
+#Section figure{
+	float: left;
+	width: inherit;
+}
+#same{
+	float: left;
+}
+
+
+
+q4{
+	width: 320px;
+	height: 300px;
+	float: left;
+	font-family: "Times New Roman";
+}
+
+q4.h2{
+		color: #7f8100;
+	  font-family: "Times New Roman";
+	  font-size: 18px;
+	}
+
+	q4.h6{
+			font-family: "Times New Roman";
+		  font-size: 10px;
+	}
+
+
+
+#Footer {
+	width: 960px;
+	height: 400px;
+	float: left;
+	font-family: "Times New Roman", Times, serif;
+	background-color: #3b2f2f;
+	text-align: center;
+	line-height: 350px;
+	position: absolute;
+  bottom: -300%; <!-- Controls footer depth -->
+	left: 0;
+}
+
+#Footer b2{
+	margin-top: 15px;
+	width: 240px;
+	line-height: 15px;
+	float:left;
+	font-family: "Times New Roman";
+	color: white;
+}
+#Container {
+	margin: auto;
+	width: 960px;
+	min-height: 100%;
+	position: relative;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
