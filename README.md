@@ -1,4 +1,4 @@
-# http://nkp.github.io/
+# http://npinnstudent.github.io/NKP
 My personal website
 # [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
